@@ -1,0 +1,33 @@
+*{
+    background-image: url(img/background.jpg);
+}
+h1{
+    color: darkblue;
+}
+
+kdb {
+    display: block;
+    font-size: 40px;
+}
+
+.keys{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.key{
+    border: 1px solid white;
+    margin: 10px;
+    font-size: 1em;
+    width: 90px;
+    color: white;
+    text-align: center;
+    transition: all 1.8s
+}
+
+.playing {
+    transform: scale(2);
+    border-color: red;
+    box-shadow: 0 0 10px black;
+}
